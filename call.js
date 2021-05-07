@@ -2,8 +2,8 @@
 var user = {
   fname: "som",
   lname: "dash",
-  fullName: function () {
-    return `my name is ${this.fname} ${this.lname}`;
+  fullName: function (str, str1) {
+    return `${str} ${this.fname} ${this.lname} ${str1}`;
   },
 };
 
@@ -12,9 +12,11 @@ var user2 = {
   lname: "babu",
 };
 
-// bind always return referance of the function
-console.log(user.fullName.bind(user2)());
+// bind always return reference of the function
+console.log(user.fullName.bind(user2, "my name is ", ".")());
 var user2FullName = user.fullName.bind(user2);
 console.log(user2FullName());
 
-// call will directly call it instand of providing any referance
+// call will directly call it instead of providing any reference
+console.log(user.fullName.call(user2, "is you name is", "?"));
+console.log(user.fullName.apply(user2, ["is you name is", "?"]));

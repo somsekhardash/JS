@@ -24,7 +24,6 @@ const first1 = () => {
   return "i m 1st";
 };
 const second1 = () => {
-  console.log("was in 2nd");
   setTimeout(() => {
     return "i m 2nd";
   }, 1000);
