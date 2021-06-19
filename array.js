@@ -39,3 +39,7 @@ const peaks = ["Tarlac", "Alston", "Rose"];
 const [last] = peaks.reverse();
 console.log(last); // Rose
 console.log(peaks.join(", "));
+
+// How to check if its an object or an Array  as typeof both are 'object'
+
+console.log(Array.isArray(arr2));

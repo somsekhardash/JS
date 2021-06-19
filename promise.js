@@ -95,3 +95,40 @@ callMe3();
   .then((res) => res.json())
   .then((res) => console.log(res));
  */
+
+/*******************************************************/
+
+// Handling Multiple JavaScript Promises Even if Some Fail
+
+const p1 = new Promise((resolve, reject) => {
+  resolve("p1");
+});
+
+const p2 = new Promise((resolve, reject) => {
+  reject("p2");
+}).catch((err) => {
+  return "error";
+});
+
+const p3 = new Promise((resolve, reject) => {
+  resolve("p3");
+});
+
+Promise.all([p1, p2, p3]).then((res) => {
+  console.log(res);
+});
+
+// Write your own Promise all function
+
+function runAll([first, ...rest]) {
+  if (!first) return Promise.resolve([]);
+  return Promise.resolve(first).then((firstResult) => {
+    return runAll(rest).then((res) => {
+      return [firstResult, ...res];
+    });
+  });
+}
+
+runAll([p1, p2, p3]).then((res) => {
+  console.log(res);
+});

@@ -1,3 +1,5 @@
+// call apply bind
+
 // function/method borrowing
 var user = {
   fname: "som",
