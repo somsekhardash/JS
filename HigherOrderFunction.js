@@ -72,3 +72,16 @@ function runAll([first, ...rest]) {
 runAll([p1, p2, p3]).then((res) => {
   console.log(res);
 });
+
+function add(...args1) {
+  const sum = args1.reduce((acc, node) => {
+    return (acc = acc + node);
+  }, 0);
+  return function (...args2) {
+    if (!args2.length) return sum;
+    return add(...args1, ...args2);
+  };
+}
+
+console.log(add(1, 2, 3, 4)());
+console.log(add(1)(2)(3)(4)());

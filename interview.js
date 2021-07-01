@@ -8,7 +8,29 @@ let som = new Date("1900-10-10").lastYear();
 
 console.log(som);
 
+/************************************************** */
 
+function checkMe() {
+  return new Promise((resolve, reject)=> {
+      setTimeout(()=> {
+          reject("Som"); 
+      }, 2000)
+  }) 
+} 
+
+checkMe().then((res)=> {
+  console.log(res);
+}).catch(()=> {
+  console.log(1);
+}).then(()=> {
+  console.log(2);
+}).catch(()=> {
+  console.log(3);
+}).then(()=> {
+  console.log(4);
+}).catch(()=> {
+  console.log(5);
+})
 
 /******************************************************************/
 
