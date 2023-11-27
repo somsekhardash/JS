@@ -306,3 +306,150 @@ const callMe = () => {
 };
 
 callme();
+
+
+// ====================
+
+QSR HealthCare 
+11. How to avoid cashing in the browser(ans=meta cache)
+12. What is responsive web design ?
+13. Cross browser compatibility?
+14. What is cross domain compatibility?-> Jsonp and window.postmessage
+15. What is a differed object? 
+16. What is a promise object?
+17. what is the advantage using differed and promise?
+18. page optimization ?
+19. what is the difference between differed and promise object?
+
+
+Innominds
+20. what is Event Bubbling in JavaScript?
+21. what is Block element n Inline element?
+22. what is prototype in javascript ?
+23. how to create class in javascript? create an object of that class ?
+24. what is new in html5 except attributes? local storage and web shocked
+25. add(2)(3) {related to closure
+26. what is the latest safari version in mac?
+27. create an plugin to add two number 
+28. using css make an font to rotate while loading
+29. why promises() is used?
+30. select all the elements having ID which ends with “xxx”   {[id$=“XXX"]}
+31. url [we can put #XXX and based on that content has to b displayed inside a para]
+xx. remove all the digits present inside it with space 	//slice().. 
+32. what is doctype ? & why this is used?
+33. call() apply().. ?
+34. diference between == and === ?
+
+
+QSR HealthCare Round 2 
+35. function overloading and function overriding is there in script? overloading is not possible but overriding is there 
+36. how to declare an global variable in javascript 
+37. types in Ajax 
+38. inheritance in javascript 
+39. promotype in javascript and its advantages 
+40. doc.ready vs win.load
+41. strict mode and why used
+42. why constructor is used and how ?
+   
+
+Extras    
+43. window.postmessage
+44. get and post in javascript
+45. javascript is sync or async
+
+
+Angular JS
+What is dependency injection in angular js?
+How can we pass one module into another?(ans=as an attribute)
+What is Deractive and how to create it?
+How to do calls in Angualr and syntex of $http
+
+
+Fireye --> standerds
+
+
+Symphony Teleca Questions
+Jquery animate runs on primary thread or secondary thread?
+How ajax works when you know javascript is single threaded application
+How do you have persistent data when the user interacting with some input fields and then he closes the browser
+How do you display data in tabular format which has groupings in html5? Ans - flex layout
+How to create private, public and protected members in javascript
+What is javascript navigator.
+What features do you use in html5 and css3
+What is closure?
+Create a closure which can access value of a variable from the inner function
+What is web workers. Have you worked on them
+Why do you prototype in javascript
+What are primitive data types in javascript
+What is 'use strict'
+What will happen if you pass 0 as second parameter to the setTimeout function Ans: http://stackoverflow.com/questions/6998330/how-to-do-threading-in-javascript http://jsfiddle.net/C2YBE/31/
+Why do you use apply and call ——  &Bind 
+Event Bubbling and Propogation. Write code for both
+ 
+Inmobi
+1. What are HTML5 semantics
+2. What happens if you don't use doctype. What doctypes being used 
+3. What is quirks mode 
+4. Different html5 tags
+5. Html5 api's
+6. Tags deprecated in html5
+7. Local storage, session storage, web sql
+10.  Multi Channel Development
+11.  CSS Media Queries
+12.  Day to Day activity
+13. What is closure and example
+14. Commonly used jquery functions
+15. Differences between jquery and native javascript, advantages
+16. What are json
+17. What is singleton pattern and why they are called singletons
+18. How do you create a object
+
+7. New selectors in CSS3
+8. HOw to center a div wihtout margin:0 auto
+9: how to center a image without text-align: center
+10: CSS3 features which are being used - important, most frequently asked
+11. Difference between float:left and display:inline-block
+12. Box model
+13. Sibling Selector, Child Selector
+14. #x.y, #x .y 
+
+
+
+Ness Tech
+
+Can prototypes be created from a object
+Closures
+How to find second largest element in an array ??
+what is call bind and apply ??
+Put in java script 
+http get and post difference vs ajax get() post() difference.
+block inline-block inline difference
+
+
+
+
+Cognizant
+1.	is in jquery // how to check element is hidden or not using script 
+2.	how to get all the keys from an object 
+3.	how to merge 2 object 
+4.	array functions i.e filter and all not using _js .. same are vailable in js 
+5.	closure 
+6.	how to apply border radious in IE8 // filter 
+7.	splice vs slice 
+8.	parent div without using parent // closest in jquery 
+9.	css frameset example and transactin example 
+10. 	css vertical center and table cell
+11.	AMD js or require js and why 
+12. 	what is namespace and why 
+13. 	angular  vs polymer 
+14. 	on form is there how to submit it 
+15. 	how u r handling null empty or fasle option 
+16.	what is isolated scope  
+
+
+CDK Globals
+
+develope one normal page with menu. on mouse over submenu should come. on mobile view it should display in sanwitch style. all have to b in css only.
+
+
+//=======================================
