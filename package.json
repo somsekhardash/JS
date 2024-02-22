@@ -4,7 +4,7 @@
   "description": "[Check out the live working version!](https://votey-uppy.vercel.app/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node react_hooks.js"
   },
   "author": "",
   "license": "ISC",
